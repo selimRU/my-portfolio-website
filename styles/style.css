@@ -1,0 +1,120 @@
+.body {
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Staatliches', cursive;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: bottom right;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 100px;
+}
+
+.nav-title {
+    font-size: 45px;
+    color: #181818;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text {
+    color: #FD6E0A;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 68px;
+    list-style: none;
+    color: #474747;
+
+}
+
+.btn-hire {
+
+    flex-shrink: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    border: 0;
+    padding: 15px 35px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.greetings{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #474747;
+}
+.name {
+  
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #181818;
+}
+.about-me{
+    color: #757575;
+}
+
+.download {
+    text-decoration: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 10px 20px;
+    color: white;
+
+}
+
+.contact-btn {
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    padding: 10px 15px;
+    margin-left: 15px;
+}
+.fa-solid {
+ margin-right: 5px;
+}
+
+.my-img {
+  width: 400px;
+}
+  .my-intro{
+    margin-left: 100px;
+    max-width: 500px;
+    padding-bottom: 100px;
+  }  
+   
+
